@@ -1,0 +1,31 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8 feb 2025, 12:43:38 a. m.
+    Author     : valer
+*/
+
+
+body{
+    font-family: sans-serif;
+    background-color: bisque;
+    padding: 80px 20px 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+section{
+    overflow-y: scroll;
+    position: fixed;
+    background-color: white;
+    top: 80px;
+    left: 20%;
+    bottom: 20px;
+    width: 20%;
+}
